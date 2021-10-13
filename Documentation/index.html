@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Cryptoex HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+		body {
+			padding-bottom: 40px;
+		}
+
+		a {
+			color: #6A1B9A;
+		}
+
+		header {
+			background-color: #eee;
+			border-top: 10px solid #6A1B9A;
+			padding: 140px 0;
+			margin-bottom: 30px;
+		}
+
+		header h1 {
+			color: #6A1B9A;
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+
+		.span9 h2 a {
+			font-size: 16px
+		}
+
+		header p {
+			text-align: center;
+		}
+
+		.nav {
+			width: 250px;
+			overflow-x: auto;
+			height: 400px;
+		}
+
+		.nav li a {
+			text-transform: capitalize;
+		}
+
+		.affix {
+			top: 40px;
+		}
+
+		.affix-top {
+			top: 200px;
+		}
+
+		hr {
+			border: 1px solid #ccc;
+			margin-bottom: 50px;
+		}
+
+		.icons {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.icons li {
+			float: left;
+			width: 25%;
+		}
+
+		.social-icons {
+			background-color: #3f3f3f;
+		}
+
+		.social-icons ul {
+			list-style: none;
+			margin: 0;
+			padding: 10px;
+		}
+
+		.social-icons li {
+			float: left;
+			width: 25%;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+
+		.show-grid {
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+
+		.show-grid [class*="span"] {
+			background-color: #eee;
+			text-align: center;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			min-height: 40px;
+			line-height: 40px;
+		}
+
+		.show-grid [class*="span"]:hover {
+			background-color: #ddd;
+		}
+
+		.show-grid .show-grid {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.show-grid .show-grid [class*="span"] {
+			margin-top: 5px;
+		}
+
+		.show-grid [class*="span"] [class*="span"] {
+			background-color: #ccc;
+		}
+
+		.show-grid [class*="span"] [class*="span"] [class*="span"] {
+			background-color: #999;
+		}
+	</style>
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+	<!--[if IE 7]><link rel="stylesheet" href="font/css/font-awesome-ie7.min.css"><![endif]-->
+
+
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="js/syntaxhighlighter_3.0.83/styles/shCoreDefault.css" />
+	<link type="text/css" rel="stylesheet" href="js/syntaxhighlighter_3.0.83/styles/shThemeRDark.css" />
+
+	<style>
+		.syntaxhighlighter .comments,
+		.syntaxhighlighter .comments a {
+			color: #4CAF50 !important;
+		}
+	</style>
+
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
+
+</head>
+
+<body>
+
+	<header id="toc">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<h1>"Cryptoex HTML Template"</h1>
+					<p>Thank you for purchasing my Template. If you have any questions that are beyond the scope of this help file, please
+						feel free to email via my user page contact form
+						<a href="https://themeforest.net/user/xpeedstudio">here</a>. Thanks so much!</p>
+					<p>
+						<strong>Created: 12/07/2018 | By: XpeedStudio | Support Desk
+							<a href="https://support.xpeedstudio.com/">https://support.xpeedstudio.com/</a>
+						</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="span3">
+				<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="200">
+					<li>
+						<a href="#html_structure">
+							<i class="icon-angle-right"></i> HTML Structure</a>
+					</li>
+					<li>
+						<a href="#css_structure">
+							<i class="icon-angle-right"></i> CSS Structure</a>
+					</li>
+
+					<li>
+						<a href="#color-styles">
+							<i class="icon-angle-right"></i> Color Styles (Variations)</a>
+					</li>
+					<li>
+						<a href="#header-logo">
+							<i class="icon-angle-right"></i> Brand / Logo</a>
+					</li>
+					<li>
+						<a href="#nav-links">
+							<i class="icon-angle-right"></i> Navigation</a>
+					</li>
+					<li>
+						<a href="#section_heading">
+							<i class="icon-angle-right"></i> Section heading</a>
+					</li>
+					<li>
+						<a href="#banner">
+							<i class="icon-angle-right"></i> Banner content </a>
+					</li>
+					<li>
+						<a href="#feature">
+							<i class="icon-angle-right"></i> Blockchain Features</a>
+					</li>
+					<li>
+						<a href="#how_work_video">
+							<i class="icon-angle-right"></i> How Work VIdeo</a>
+					</li>
+					<li>
+						<a href="#blog_post">
+							<i class="icon-angle-right"></i> Blog post</a>
+					</li>
+					<li>
+						<a href="#timline">
+							<i class="icon-angle-right"></i> Roadmap</a>
+					</li>
+					<li>
+						<a href="#team">
+							<i class="icon-angle-right"></i> Team</a>
+					</li>
+					<li>
+						<a href="#social">
+							<i class="icon-angle-right"></i> Social list</a>
+					</li>
+					<li>
+						<a href="#client_logo">
+							<i class="icon-angle-right"></i> Client/sponsord logo</a>
+					</li>
+					
+					<li>
+						<a href="#javascript">
+							<i class="icon-angle-right"></i> JavaScript</a>
+					</li>
+					<li>
+						<a href="#psd-file">
+							<i class="icon-angle-right"></i> PSD File</a>
+					</li>
+					<li>
+						<a href="#credits">
+							<i class="icon-angle-right"></i> Credits</a>
+					</li>
+				</ul>
+			</div>
+			<div class="span9">
+
+				<div class="row" id="html_structure">
+					<div class="span9">
+						<h2>
+							<strong>HTML Structure</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>Cryptoex HTML Template is built with the Bootstrap 4 framework - that means you have access to all the great features,
+							css &amp; js goodies has to offer. Bootstrap includes a responsive, mobile first fluid grid system that appropriately
+							scales up to 12 columns as the device or viewport size increases.</p>
+						<p>To learn more about Bootstrap's grid system, please refer to
+							<a href="https://getbootstrap.com/docs/4.1/layout/grid/">Bootstrap 4 Grid</a>
+						</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="css_structure">
+					<div class="span9">
+						<h2>
+							<strong>CSS Structure</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>I'm using one main CSS file
+							<strong>(assets/css/style.css)</strong> and sass file available on
+							<strong>(assets/sass/style.scss)</strong>, in this template which you are free to modify depending on the customization you
+							require. There are also other additional style sheets that I do not recommend changing. Those style sheets reside
+							in the 'css' folder and 'sass' file on 'sass' folder.</p>
+						<ul>
+							<li>
+								<strong>https://fonts.google.com/</strong> - Web font Cabin from Google Fonts</li>
+							<li>
+								<strong>bootstrap.min.css</strong> - This is a main stylesheet that required for basic template styling like form, input,
+								div, list element and etc.</li>
+							<li>
+								<strong>font-awesome.min.css</strong> - Web font containing all the icons from the Bootstrap framework and more.</li>
+							<li>
+								<strong>style.css</strong> - The main stylesheet you are encouraged to modify.</li>
+						</ul>
+						<p></p>
+						<p>The Style CSS file contains all of the specific stylings for the page. The file is separated into sections using:</p>
+						<pre class="brush: css">
+							/*****************
+
+							Table Of Content
+							------------------------------------
+
+							inharitance css
+							header search
+							header nav
+							modal on language 
+							banner
+							blockcain top
+							blockcain feature
+							blockcain business
+							client logo
+							how work
+							token distribution
+							company roadmap
+							documentation
+							team
+							blog
+							social list
+							footer
+							offset cart 
+							preloader
+
+					
+							=====================================================**************************/
+						</pre>
+						<hr />
+						<pre class="brush: css">
+							/*****************
+
+							all css link
+							------------------------------------
+
+							<link rel="stylesheet" href="assets/css/fontawesome-min.css">
+							<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+							<link rel="stylesheet" href="assets/css/xsIcon.css">
+							<link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+							<link rel="stylesheet" href="assets/css/magnific-popup.css">
+							<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+							<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+							<link rel="stylesheet" href="assets/css/navigation.css">
+							<link rel="stylesheet" href="assets/css/animate.css">
+							
+							<!--Theme custom css -->
+							<link rel="stylesheet" href="assets/css/style.css">
+							
+							<!--Theme Responsive css-->
+							<link rel="stylesheet" href="assets/css/responsive.css">
+
+					
+							=====================================================**************************/
+						</pre>
+						<p>If you would like to edit a specific section of the site, simply find the appropriate label in the css or sass file,
+							and then scroll down until you find the appropriate style that needs to be edited.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="color-styles">
+					<div class="span9">
+						<h2>
+							<strong>Color Styles (Variations)</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>This template comes with Unlimited color variations. To change the color style from the template edit the following lines:</p>
+						<pre class="brush: css">
+					
+						...
+
+						// default color set
+						$primary-color: #1bd1ea;
+
+						$body-color: #868dff;
+						$title-color: #fff;
+						$white-color: #fff;
+						$border-color: #353371;
+						
+						</pre>
+						<p>Just change the color code name for example form
+							<code>$color-primary: #1bd1ea;</code> to
+							<code>#2bc387</code>. Available
+							<code>assets/sass/style.scss</code> directory</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="header-logo">
+					<div class="span9">
+						<h2>
+							<strong>Brand / Logo</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To change the logo edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+
+						<!-- Logo start -->
+						<div class="nav-header">
+							<a class="nav-brand" href="index.html">
+								<img src="assets/images/logo.png" alt="">
+							</a>
+							<div class="nav-toggle"></div>
+						</div>
+						<!-- Logo end -->
+				
+						...
+
+						<!-- Footer logo -->
+						<div class="footer-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+						<!-- footer logo end -->
+
+						</pre>
+						<p>The value is the header logo image path from the
+							<code>assets/images/logo.png</code>
+						</p>
+						<p>The value is the footer logo image path from the
+							<code>assets/images/logo.png</code>
+						</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="nav-links">
+					<div class="span9">
+						<h2>
+							<strong>Navigation</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a navigation item edit the following lines:</p>
+						<h2>After editing the navigation bar:</h2>
+						<pre class="brush: xml">
+							...
+							<!-- nav linnks start -->
+							<nav id="navigation1" class="navigation">
+
+								<div class="nav-header">
+									<a class="nav-brand" href="index.html">
+										<img src="assets/images/logo.png" alt="">
+									</a>
+									<div class="nav-toggle"></div>
+								</div>
+							
+								<div class="nav-menus-wrapper xs-menu">
+									<ul class="header-right align-to-right">
+										<li class="language">
+											<a href="#modal-popup-1" class="xs-modal-popup">
+												<img src="assets/images/english.png" alt="">
+												EN
+											</a>
+											<!-- xs modal -->
+												<div class="zoom-anim-dialog mfp-hide modal-language" id="modal-popup-1">
+													<div class="modal-dialog modal-lg">
+														<div class="modal-content">
+															<div class="language-content">
+																<p>Switch The Language</p>
+																<ul class="flag-lists">
+																	<li><a href="#"><img src="assets/images/flags/006-united-states.svg" alt=""><span>English</span></a></li>
+																	<li><a href="#"><img src="assets/images/flags/002-canada.svg" alt=""><span>English</span></a></li>
+																	<li><a href="#"><img src="assets/images/flags/003-vietnam.svg" alt=""><span>Vietnamese</span></a></li>
+																	<li><a href="#"><img src="assets/images/flags/004-france.svg" alt=""><span>French</span></a></li>
+																	<li><a href="#"><img src="assets/images/flags/005-germany.svg" alt=""><span>German</span></a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div><!-- End xs modal -->
+										</li>
+										<li>
+											<a href="#" class="offset-side-bar">
+											   <i class="icon icon-bag"></i>
+											</a>
+										</li>
+									
+										<li>
+											<a href="#" class="searchIcon">
+												<i class="icon icon-search"></i>
+											</a>
+										</li>
+									
+										<li>
+											<a href="#" class="navSidebar-button">
+												<i class="icon-menu2"></i>
+											</a>
+										</li>
+									</ul>
+									<ul class="nav-menu align-to-right">
+										<li class="active"><a href="#">Home</a>
+											<div class="megamenu-panel">
+												<div class="megamenu-panel-row">
+													<div class="col-lg-4 col-12">
+														<a href="index.html">
+															<img style="width: 100%" src="assets/images/menu_img/home_1.jpg" alt="image">
+															<span>Home One</span>
+														</a>
+													</div>
+													<div class="col-lg-4 col-12">
+														<a href="index-2.html">
+															<img style="width: 100%" src="assets/images/menu_img/home_2.jpg" alt="image">
+															<span>Home Two</span>
+														</a>
+													</div>
+													<div class="col-lg-4 col-12">
+														<a href="index-3.html">
+																<img style="width: 100%" src="assets/images/menu_img/home_3.jpg" alt="image">
+																<span>Home Three</span>
+														</a>
+													</div>
+													<div class="col-lg-4 col-12">
+														<a href="index-4.html">
+															<img style="width: 100%" src="assets/images/menu_img/home_4.jpg" alt="image">
+															<span>Home Four</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">Pages</a></li>
+										<li><a href="#">Blog</a></li>
+									</ul>
+								   
+								</div>
+							 
+					
+							</nav>		
+							<!-- .xs-menus -->
+						</pre>
+						<p>The link "href" is the page link from the element for the "goes to" action.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="section_heading">
+					<div class="span9">
+						<h2>
+							<strong>Section heading</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a team edit the following lines:</p>
+						<pre class="brush: xml">
+							...
+							<!-- section heading -->
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<div class="section-title-item">
+										<small class="xs-section-title">Main Features</small>
+										<h2 class="section-title">Blockchain Features</h2>
+									</div>
+								</div>
+							</div>				
+							<!-- section heading end -->
+							...
+					>
+				
+						</pre>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="banner">
+					<div class="span9">
+						<h2>
+							<strong>Banner content</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a banner content edit the following lines:</p>
+						<pre class="brush: xml">
+							...
+							<div class="banner-content">
+								<h1 class="banner-title">Lets Invest in Crytoex</h1>
+								<p>
+									A better way to present your money using fully featured digital currency
+									Now available on the xpeedstudio.com !
+								</p>
+								<a href="#" class="btn btn-primary">Get A Quote</a>
+							</div>
+						</pre>
+					</div>
+				</div>
+
+				<div class="row" id="feature">
+					<div class="span9">
+						<h2>
+							<strong>Blockchain Features</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change Blockchain Features content edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+						<!-- blockcain feature start -->
+						<div class="single-feaured-item">
+							<img src="assets/images/feature/icon-1.png" alt="">
+							<h3 class="feature-title">
+							   Lowest Transaction Cost
+							</h3>
+							<p>
+							   A better way to present your money using fully featured digital
+							</p>
+						</div>
+							
+						<!--  blockcain feature end -->
+
+						</pre>
+				
+						<hr />
+					</div>
+				</div>
+
+
+				<div class="row" id="how_work_video">
+					<div class="span9">
+						<h2>
+							<strong>How Work VIdeo</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a video edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+						<!-- single service start -->
+						<a href="https://www.youtube.com/watch?v=2X9eJF1nLiY" class="video-btn xs-video" data-effect="mfp-zoom-in">
+							<i class="icon icon-play-button2"></i>
+							<span class="btn-hover-anim"></span>
+						</a>
+						<!-- single service end -->
+						</pre>
+						<p>you add your custom video just following instructions: got to
+							<code>https://www.youtube.com/</code>
+							<strong>copy video url</strong> and
+							<strong>paste</strong> it</p>
+					</div>
+				</div>
+
+
+				<div class="row" id="blog_post">
+					<div class="span9">
+						<h2>
+							<strong>Blog post</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a blog post content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+						<!-- blog post start -->
+						<div class="blog-featured-post">
+							<a href="#">
+								<div class="blog-feaured-img">
+									<img src="assets/images/blog/blog-featured-img.jpg" alt="">
+								</div>
+								<div class="blog-featured-content">
+									<span class="post-meta-date">20 August, 2018</span>
+									<h3 class="xs-blog-title">
+										Poor Communication Undermines the Bitcoin Ecosystem.
+									</h3>
+								</div>
+							</a>
+						</div>
+						<!-- blog post end -->
+						</pre>
+					</div>
+				</div>
+
+
+				<div class="row" id="timline">
+					<div class="span9">
+						<h2>
+							<strong>Roadmap</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change a company timline content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+							<div class="single-roadmap-timeline">
+								<b></b>
+								<h3>April 2016</h3>
+								<p>
+									Reach $20 Million Milestone
+								</p>
+							
+							</div>
+						</pre>
+					
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="team">
+					<div class="span9">
+						<h2>
+							<strong>Team</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change team content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+						<!-- team -->
+						<div class="single-team">
+							<div class="team-img">
+								 <img src="assets/images/team/team_1.jpg" alt="">
+								 <div class="team-social">
+									 <a href="#">
+										 <i class="icon icon-facebook"></i>
+									 </a>
+									 <a href="#">
+										 <i class="icon icon-twitter"></i>
+									 </a>
+									 <a href="#">
+										 <i class="icon icon-linkedin"></i>
+									 </a>
+								 </div>
+							</div>
+							<div class="team-content">
+								<h3 class="xs-title md">James Carter</h3>
+								<p>CEO</p>
+							</div>
+						 </div>					
+						<!-- team end -->
+		
+						</pre>
+						<p>change team image and add your own image just following instructions:
+							<code>assets/images/team/team_1.jpg</code> </p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="social">
+					<div class="span9">
+						<h2>
+							<strong>Social List</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change social list edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+							<!-- social list start-->
+							<div class="single-social-list twitter">
+								<i class="fa fa-twitter"></i>
+								<h3 class="xs-title sm">Twitter</h3>
+								<a href="#">
+									<span class="icon icon-arrow-right"></span>
+								</a>
+							</div>
+						<!-- social list end-->
+
+			
+						</pre>
+						<p>change or add your own social link just following instructions:
+							<code>href="http://twitter.com"</code> </p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="client_logo">
+					<div class="span9">
+						<h2>
+							<strong>client logo</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>To add or change client logo edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+							<!-- client logo start-->
+							<div class="client-logo">
+								<img src="assets/images/client_logo/logo_style2.png" alt="">
+							</div>
+						<!-- client logo end-->
+
+			
+						</pre>
+						<p>change or add your own sponsord/client logo just following instructions:
+							<code>assets/images/client_logo/logo_style2.png</code> </p>
+						<hr />
+					</div>
+				</div>
+
+
+
+				<div class="row" id="javascript">
+					<div class="span9">
+						<h2>
+							<strong>JavaScript</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>This template imports the following Javascript files.</p>
+						<ul>
+							<li>assets/js/jquery-3.2.1.min.js</li>
+							<li>assets/js/bootstrap.min.js</li>
+							<li>assets/js/jquery.magnific-popup.min.js</li>
+							<li>assets/js/owl.carousel.min.js</li>
+							<li>assets/js/jquery.appear.min.js</li>
+							<li>assets/js/navigation.js</li>
+							<li>assets/js/chart.min.js</li>
+							<li>assets/js/particles.min.js</li>
+							<li>assets/js/wow.min.js</li>
+							<li>assets/js/main.js</li>
+						</ul>
+
+
+						<hr />
+					</div>
+				</div>
+
+
+				<div class="row" id="psd-file">
+					<div class="span9">
+						<h2>
+							<strong>PSD Files</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<p>The following Photoshop file are included with the download package place in /PSD/ folder:
+							<br />
+							<strong>Cryptoex.psd</strong>
+						</p>
+						<hr />
+					</div>
+				</div>
+
+
+				<div class="row" id="credits">
+					<div class="span9">
+						<h2>
+							<strong>Credits</strong> -
+							<a href="#top">top</a>
+						</h2>
+						<ul class="nav nav-list">
+							<li>
+								<a href="http://getbootstrap.com/" target="_blank">
+									<i class="icon-angle-right"></i> Twitter Bootstrap</a>
+							</li>
+							<li>
+								<a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">
+									<i class="icon-angle-right"></i> Font Awesome</a>
+							</li>
+							<li>
+								<a href="https://owlcarousel2.github.io/OwlCarousel2/index.html" target="_blank">
+									<i class="icon-angle-right"></i> owl carousel</a>
+							</li>
+							<li>
+								<a href="http://jquery.com/" target="_blank">
+									<i class="icon-angle-right"></i> jQuery</a>
+							</li>
+						</ul>
+						<hr />
+						<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if
+							you have any questions relating to this template. No guarantees, but I'll do my best to assist. If you have a more
+							general question relating to the templates on ThemeForest, you might consider visiting the forums and asking your
+							question in the "Item Discussion" section.</p>
+						<p>
+							<strong>XpeedStudio</strong>
+						</p>
+						<p></p>
+						<p>
+							<a href="#top">Go To Table of Contents</a>
+						</p>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function ($) {
+			$(document).on('click', '.nav-tabs li a', function (event) {
+				event.preventDefault();
+				/* Act on the event */
+
+				var targets = $(this.getAttribute('href'));
+
+				$('body, html').animate({
+					scrollTop: targets.offset().top
+				}, 1000);
+			});
+
+			$(document).on('click', '.span9 a[href="#top"]', function (event) {
+				event.preventDefault();
+				/* Act on the event */
+
+				$('body, html').animate({
+					scrollTop: 0
+				}, 1000);
+			});
+		});
+	</script>
+</body>
+
+</html>
